@@ -11,10 +11,10 @@ export function Navigation() {
   const [isModalOpen, setModalOpen] = useState(false)
 
   const navItems = [
-    { name: "WORK", href: "#work" },
+    { name: "ABOUT", href: "#about" },
     { name: "SERVICES", href: "#services" },
-    { name: "PROCESS", href: "#process" },
-    { name: "ABOUT", href: "#about" }
+    { name: "NEWS", href: "#news" },
+    { name: "BLOG", href: "#blog" }
   ]
 
   const scrollToHero = () => {

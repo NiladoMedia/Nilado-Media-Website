@@ -5,14 +5,6 @@ export function AboutSection() {
     <section id="about" className="relative py-20 bg-gray-900 overflow-hidden">
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left side - Image */}
-          <div className="relative h-[400px] lg:h-[500px] flex items-center justify-center">
-            <img
-              src="/images/landing-illustration.webp"
-              alt="Digital analytics and data visualization illustration"
-              className="w-full h-full object-contain"
-            />
-          </div>
 
           {/* Right side - Text content */}
           <div className="space-y-8">
