@@ -21,7 +21,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="relative bg-gray-900 border-t border-white/5 overflow-hidden">
+    <footer className="relative bg-black border-t border-white/5 overflow-hidden">
       {/* Grain effect overlay */}
       <div
         className="absolute inset-0 opacity-[0.015] pointer-events-none"

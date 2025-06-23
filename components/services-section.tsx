@@ -29,11 +29,11 @@ export function ServicesSection() {
   ]
 
   return (
-    <section id="services" className="py-32 bg-black">
+    <section id="services" className="py-32 bg-gradient-to-br from-black via-gray-800 to-black z-0">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-20 text-center">
           <h2 className="text-4xl md:text-5xl font-light leading-tight mb-8">What We Launch</h2>
-          <p className="text-lg font-mono-jetbrains font-light text-white/60 max-w-2xl mx-auto">
+          <p className="text-lg font-light text-white/60 max-w-2xl mx-auto">
             Four pillars of digital excellence that transform ambitious brands into market leaders
           </p>
         </div>
