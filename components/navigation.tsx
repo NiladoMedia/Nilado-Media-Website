@@ -32,7 +32,7 @@ export function Navigation() {
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">
               <a href="/">
-              <img src="/logo/niladoLogoBijeli.svg" alt="Nilado Logo" className="h-8 w-auto" />
+              <img src="/logo/niladoLogoBijeli.svg" alt="Nilado Logo" className="h-5 w-auto" />
               </a>
             </div>
 
