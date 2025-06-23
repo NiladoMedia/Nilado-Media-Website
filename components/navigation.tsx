@@ -11,11 +11,21 @@ export function Navigation() {
   const [isModalOpen, setModalOpen] = useState(false)
 
   const navItems = [
-    { name: "WORK", href: "#work" },
+    { name: "ABOUT", href: "#about" },
     { name: "SERVICES", href: "#services" },
-    { name: "PROCESS", href: "#process" },
-    { name: "ABOUT", href: "#about" }
+    { name: "NEWS", href: "#news" },
+    { name: "BLOG", href: "#blog" }
   ]
+
+  const scrollToHero = () => {
+    const HeroSection = document.getElementById("hero")
+    if (HeroSection) {
+      window.scrollTo({
+        top: HeroSection.offsetTop,
+        behavior: "smooth",
+      })
+    }
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +41,7 @@ export function Navigation() {
         <div className={`${isScroll ? "md:px-20 px-8" : "md:px-14 px-6"} max-w-10xl mx-auto duration-300`}>
           <div className="flex items-center justify-between h-16">
             <div className="flex-shrink-0">
-              <a href="/">
+              <a href="#" onClick={scrollToHero}>
               <img src="/logo/niladoLogoBijeli.svg" alt="Nilado Logo" className="h-5 w-auto" />
               </a>
             </div>

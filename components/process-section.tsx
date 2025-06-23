@@ -30,7 +30,7 @@ export function ProcessSection() {
   ]
 
   return (
-    <section id="process" className="py-32 bg-gray-900">
+    <section id="process" className="py-32 bg-black">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="mb-20">
           <h2 className="text-4xl md:text-5xl font-light leading-tight">
@@ -50,7 +50,7 @@ export function ProcessSection() {
                   <h4 className="text-lg font-light text-white/80">{step.subtitle}</h4>
                 </div>
               </div>
-              <p className="text-base font-mono-jetbrains font-light text-white/70 leading-relaxed pl-20">
+              <p className="text-base font-light text-white/70 leading-relaxed pl-20">
                 {step.description}
               </p>
             </div>

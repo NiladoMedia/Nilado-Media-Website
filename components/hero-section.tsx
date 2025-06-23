@@ -103,9 +103,9 @@ export function HeroSection() {
   }, [isDesktop])
 
   return (
-    <section className="relative flex flex-col py-48 lg:py-32 min-h-screen">
+    <section id="hero" className="relative flex flex-col py-48 lg:py-32 min-h-screen">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black z-0" />
+      <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-800 to-black z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -122,7 +122,7 @@ export function HeroSection() {
             </div>
 
             <div className="space-y-6">
-              <p className="text-lg md:text-xl font-mono-jetbrains font-light text-white/80 max-w-lg leading-relaxed">
+              <p className="text-lg md:text-l font-light text-white/80 max-w-lg leading-relaxed">
                 At Nilado Media, we don't just follow digital waves — we create them. From websites to branding, we
                 engineer the future of your online presence.
               </p>
@@ -138,12 +138,12 @@ export function HeroSection() {
 
           {/* 3D Canvas */}
           <div className="relative h-[350px] lg:h-[700px] w-full">
-            <Canvas camera={{ position: [0, 0, 10], fov: 50 }} className="w-full h-full overflow-visible">
-              <ambientLight intensity={0.2} />
-              <pointLight position={[10, 10, 10]} intensity={0.5} />
+            <Canvas camera={{ position: [0, 0, 10], fov: 45 }} className="w-full h-full overflow-visible">
+              <ambientLight intensity={0.05} />
+              <pointLight position={[10, 10, 10]} intensity={0.1} />
               <AnimatedGeometry mousePos={mousePos} isDesktop={isDesktop} />
             </Canvas>
-            <div className="absolute inset-0 bg-gradient-radial from-white/5 via-transparent to-transparent pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-radial from-white/1 via-transparent to-transparent pointer-events-none" />
           </div>
         </div>
       </div>

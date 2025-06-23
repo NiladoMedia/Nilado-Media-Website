@@ -15,13 +15,13 @@ export function Footer() {
   ]
 
   const social = [
-    { name: "Instagram", href: "#", icon: Instagram },
+    { name: "Instagram", href: "https://www.instagram.com/nilado.media/", icon: Instagram },
     { name: "LinkedIn", href: "#", icon: Linkedin },
     { name: "Behance", href: "#", icon: Eye },
   ]
 
   return (
-    <footer className="relative bg-gray-900 border-t border-white/5 overflow-hidden">
+    <footer className="relative bg-black border-t border-white/5 overflow-hidden">
       {/* Grain effect overlay */}
       <div
         className="absolute inset-0 opacity-[0.015] pointer-events-none"
@@ -88,6 +88,8 @@ export function Footer() {
                   <li key={item.name}>
                     <a
                       href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="group flex items-center space-x-3 text-sm font-mono-jetbrains font-light text-white/60 hover:text-white transition-all duration-300 relative"
                     >
                       <div className="relative">
