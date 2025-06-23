@@ -63,8 +63,8 @@ export function ServicesSection() {
     const centerX = rect.width / 2
     const centerY = rect.height / 2
 
-    const rotateX = ((y - centerY) / centerY) * -8
-    const rotateY = ((x - centerX) / centerX) * 8
+    const rotateX = ((y - centerY) / centerY) * -12
+    const rotateY = ((x - centerX) / centerX) * 12
 
     const newTransforms = [...transforms]
     newTransforms[index] = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(20px)`
