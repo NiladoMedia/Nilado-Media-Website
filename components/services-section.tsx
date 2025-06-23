@@ -90,7 +90,7 @@ export function ServicesSection() {
         <div className="mb-20 text-center">
           <h2 className="text-4xl md:text-5xl font-light leading-tight mb-8">What We Launch</h2>
           <p className="text-lg font-light text-white/60 max-w-2xl mx-auto">
-            Four pillars of digital excellence that transform ambitious brands into market leaders
+            Our services are based on four key pillars that enable the transformation of brands into industry leaders.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ export function ServicesSection() {
                 ref={(el) => (cardRefs.current[index] = el)}
                 onMouseMove={!isMobile ? handleMouseMove(index) : undefined}
                 onMouseLeave={!isMobile ? handleMouseLeave(index) : undefined}
-                className={`group relative bg-gradient-to-br from-gray-800/50 to-black/90 rounded-xl p-6 md:p-10 backdrop-blur-sm cursor-pointer transition-all duration-500 ${
+                className={`group relative bg-gradient-to-br from-gray-900/30 to-black/80 rounded-xl p-6 md:p-10 backdrop-blur-sm cursor-pointer transition-all duration-500 ${
                   !isMobile && hoveredCard !== null && hoveredCard !== index
                     ? "opacity-40 scale-95"
                     : "opacity-100 scale-100"

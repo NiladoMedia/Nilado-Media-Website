@@ -122,9 +122,8 @@ export function HeroSection() {
             </div>
 
             <div className="space-y-6">
-              <p className="text-lg md:text-l font-light text-white/80 max-w-lg leading-relaxed">
-                At Nilado Media, we don't just follow digital waves — we create them. From websites to branding, we
-                engineer the future of your online presence.
+              <p className="text-lg md:text-l font-light text-white/60 max-w-lg leading-relaxed">
+                Nilado Media is an agency that does not rely on current digital trends but sets new standards. Our team specializes in website development and branding, shaping the digital future for our clients.
               </p>
             </div>
 
