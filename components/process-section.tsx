@@ -50,7 +50,7 @@ export function ProcessSection() {
                   <h4 className="text-lg font-light text-white/80">{step.subtitle}</h4>
                 </div>
               </div>
-              <p className="text-base font-mono-jetbrains font-light text-white/70 leading-relaxed pl-20">
+              <p className="text-base font-light text-white/70 leading-relaxed pl-20">
                 {step.description}
               </p>
             </div>
