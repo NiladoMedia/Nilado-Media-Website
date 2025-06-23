@@ -15,7 +15,7 @@ export function Footer() {
   ]
 
   const social = [
-    { name: "Instagram", href: "#", icon: Instagram },
+    { name: "Instagram", href: "http://www.instagram.com/nilado.media", icon: Instagram },
     { name: "LinkedIn", href: "#", icon: Linkedin },
     { name: "Behance", href: "#", icon: Eye },
   ]
@@ -90,6 +90,8 @@ export function Footer() {
                   <li key={item.name}>
                     <a
                       href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="group flex items-center space-x-3 text-sm font-mono-jetbrains font-light text-white/60 hover:text-white transition-all duration-300 relative"
                     >
                       <div className="relative">
