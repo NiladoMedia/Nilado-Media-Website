@@ -103,7 +103,7 @@ export function HeroSection() {
   }, [isDesktop])
 
   return (
-    <section className="relative flex flex-col py-32 lg:py-4">
+    <section className="relative flex flex-col py-48 lg:py-32 min-h-screen">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black z-0" />
 
