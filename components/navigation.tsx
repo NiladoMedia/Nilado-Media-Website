@@ -30,7 +30,11 @@ export function Navigation() {
       <nav className={`fixed z-50 backdrop-blur-md top-0 duration-300 w-full ${isScroll ? "bg-black pt-0" : "pt-5"}`}>
         <div className={`${isScroll ? "md:px-20 px-8" : "md:px-14 px-6"} max-w-10xl mx-auto duration-300`}>
           <div className="flex items-center justify-between h-16">
-            <div className="flex-shrink-0 text-xl font-light tracking-wider">nilado</div>
+            <div className="flex-shrink-0">
+              <a href="/">
+              <img src="/logo/niladoLogoBijeli.svg" alt="Nilado Logo" className="h-8 w-auto" />
+              </a>
+            </div>
 
             {/* Desktop nav */}
             <div className="hidden md:flex items-center space-x-8">
