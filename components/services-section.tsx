@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useRef, useEffect } from "react"
 import { Monitor, Palette, TrendingUp, Zap } from "lucide-react"
 
@@ -69,10 +68,6 @@ export function ServicesSection() {
     const newTransforms = [...transforms]
     newTransforms[index] = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(20px)`
     setTransforms(newTransforms)
-
-    // Set CSS custom properties for mouse tracking glow
-    card.style.setProperty("--mouse-x", `${x}px`)
-    card.style.setProperty("--mouse-y", `${y}px`)
   }
 
   const handleMouseLeave = (index: number) => () => {
@@ -116,7 +111,6 @@ export function ServicesSection() {
                     !isMobile && transforms[index]
                       ? "opacity 0.2s ease-out, transform 0.6s ease-out, scale 0.2s ease-out"
                       : "all 0.4s ease-out",
-                  boxShadow: undefined,
                 }}
               >
                 {/* Subtle glow effect */}
@@ -191,18 +185,6 @@ export function ServicesSection() {
                     ))}
                   </div>
                 </div>
-
-                {/* Mouse tracking glow effect - Desktop only */}
-                {!isMobile && (
-                  <div className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 overflow-hidden">
-                    <div
-                      className="absolute inset-0 rounded-xl"
-                      style={{
-                        background: `radial-gradient(circle 200px at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.08), transparent 70%)`,
-                      }}
-                    />
-                  </div>
-                )}
               </div>
             )
           })}
