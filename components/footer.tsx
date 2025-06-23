@@ -35,7 +35,9 @@ export function Footer() {
           {/* Logo */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <h3 className="text-2xl font-light tracking-wider text-white">nilado</h3>
+              <h3 className="text-2xl font-light tracking-wider text-white">
+                <img src="/logo/niladoLogoBijeli.svg" alt="Nilado Logo" className="h-4 w-auto" />
+              </h3>
               <p className="text-sm font-light text-white/60 leading-relaxed max-w-xs">
                 Digital studio for visionaries. We don't follow trends — we launch them.
               </p>
