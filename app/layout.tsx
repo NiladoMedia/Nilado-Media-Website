@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Nilado Media",
   description: "Nilado Media - Launch your brand!",
     generator: 'v0.dev'
+  
 }
 
 export default function RootLayout({
@@ -23,6 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      
       <body className={`${inter.className} ${jetbrainsMono.variable}`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           {children}
