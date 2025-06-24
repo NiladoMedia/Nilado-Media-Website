@@ -3,31 +3,32 @@ export function ProcessSection() {
     {
       number: "01",
       title: "Discovery",
-      subtitle: "We Dig Deep",
+      subtitle: "In-Depth Research",
       description:
-        "Before we create magic, we understand your world. Your challenges, dreams, and the competition that's about to wonder what hit them.",
+        "The first step in every project is thorough research of the client’s business, competition, and market.",
     },
     {
       number: "02",
       title: "Strategy",
-      subtitle: "We Plot the Revolution",
+      subtitle: "Strategic Planning",
       description:
-        "Every great disruption starts with a plan. We map out your path to digital domination with precision and creativity.",
+        "Based on the research, we develop a clear and precise strategy aimed at achieving long-term brand success.",
     },
     {
       number: "03",
       title: "Creation",
-      subtitle: "We Build the Future",
+      subtitle: "Building the Vision",
       description:
-        "This is where ideas become reality. Where your brand transforms from concept to digital force of nature.",
+        "In this phase, our team implements the strategy through design, development, and solution adaptation.",
     },
     {
       number: "04",
       title: "Launch",
-      subtitle: "We Break the Internet",
-      description: "Ready, aim, launch. We don't just go live—we make waves that ripple across your entire industry.",
+      subtitle: "Project Deployment",
+      description: "In the final phase, we launch the project with the goal of achieving wide market impact and long-term sustainability.",
     },
-  ]
+]
+
 
   return (
     <section id="process" className="py-32 bg-black">
