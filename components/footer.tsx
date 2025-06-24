@@ -15,7 +15,7 @@ export function Footer() {
   ]
 
   const social = [
-    { name: "Instagram", href: "https://www.instagram.com/nilado.media/", icon: Instagram },
+    { name: "Instagram", href: "http://www.instagram.com/nilado.media", icon: Instagram },
     { name: "LinkedIn", href: "#", icon: Linkedin },
     { name: "Behance", href: "#", icon: Eye },
   ]
@@ -35,7 +35,9 @@ export function Footer() {
           {/* Logo */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <h3 className="text-2xl font-light tracking-wider text-white">nilado</h3>
+              <h3 className="text-2xl font-light tracking-wider text-white">
+                <img src="/logo/niladoLogoBijeli.svg" alt="Nilado Logo" className="h-4 w-auto" />
+              </h3>
               <p className="text-sm font-light text-white/60 leading-relaxed max-w-xs">
                 Digital studio for visionaries. We don't follow trends — we launch them.
               </p>

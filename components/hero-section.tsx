@@ -148,7 +148,7 @@ export function HeroSection() {
       </div>
 
       {/* Footer text */}
-      <div className="absolute bottom-8 right-8 text-xs font-mono-jetbrains font-light text-white/60 tracking-wider uppercase">
+      <div className="absolute bottom-12 lg:bottom-8 right-4 lg:right-8 text-xs font-mono-jetbrains font-light text-white/60 tracking-wider uppercase">
         Trusted by 100+ Visionaries
       </div>
     </section>
